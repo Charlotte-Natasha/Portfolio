@@ -1,12 +1,12 @@
 body{
  margin: 20px;
+ background: rgb(255, 228, 196);
 }
 
 img{
     width: 150px;
     border-radius: 100px;
     float: left;
-    margin-right: 10px;
 }
 
 ul{
@@ -20,6 +20,18 @@ nav{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 60px;
-    background-color: bisque;
+    height: 80px;
+    background-color: rgb(92, 25, 22);
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400px;
+
 }
