@@ -1,5 +1,5 @@
 body{
-    margin: 20px;
+ margin: 20px;
 }
 
 img{
@@ -9,6 +9,17 @@ img{
     margin-right: 10px;
 }
 
-.username{
-font-weight: bold;
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    background-color: bisque;
 }
