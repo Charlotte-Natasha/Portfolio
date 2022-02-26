@@ -70,4 +70,15 @@ nav ul li a{
     font-size: 12px;
     width: 130px;
     height: 42px;
+    outline: none;
+    margin: 0px 2px;
+}
+.hire-btn{
+    border: 2px solid burlywood;
+    color: brown;
+}
+.download-cv{
+    background-color: brown;
+    color: burlywood;
+    border: none;
 }
