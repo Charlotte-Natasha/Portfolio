@@ -5,8 +5,8 @@ body{
 }
 
 img{
-    width: 150px;
-    border-radius: 100px;
+    width: 300px;
+    border-radius: 150px;
     float: left;
 }
 
@@ -20,7 +20,7 @@ a{
 nav{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-content: left;
     height: 80px;
     background-color: rgb(92, 25, 22);
 }
@@ -37,9 +37,9 @@ nav ul li a{
 }
 .first-text {
     position: absolute;
-    left: 15%;
-    top: 45%;
-    transform: translate(-15%, -30%);
+    left: 30%;
+    top: 10%;
+    transform:translateX(15%);
 
 }
  .first-text p:nth-child(1){
@@ -82,3 +82,7 @@ nav ul li a{
     color: burlywood;
     border: none;
 }
+.button:active{
+    transform: scale(1.1);
+}
+
