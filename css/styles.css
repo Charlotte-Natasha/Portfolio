@@ -1,88 +1,86 @@
-body{
- margin: 0px;
- padding: 0px;
- background: rgb(255, 228, 196);
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(255, 228, 196);
 }
 
-img{
-    width: 300px;
-    border-radius: 150px;
-    float: left;
+img {
+  width: 300px;
+  border-radius: 150px;
+  float: left;
 }
 
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-content: left;
-    height: 80px;
-    background-color: rgb(92, 25, 22);
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: left;
+  height: 80px;
+  background-color: rgb(92, 25, 22);
 }
 
-nav ul{
-    display: flex;
+nav {
+  display: flex;
 }
-nav ul li a{
-    margin: 30px;
-    color: bisque;
-    font-size: 15px;
-    font-weight: 400px;
-
+nav a {
+  margin: 30px;
+  color: bisque;
+  font-size: 15px;
+  font-weight: 400px;
+  text-align: left;
 }
 .first-text {
-    position: absolute;
-    left: 30%;
-    top: 10%;
-    transform:translateX(15%);
-
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  transform: translateX(15%);
 }
- .first-text p:nth-child(1){
-     font-family: Arial, Helvetica, sans-serif;
-     font-weight: bold;
-     letter-spacing: 1px;
-     font-size: 30px; 
+.first-text p:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 30px;
 }
-.first-text p:nth-child(2){
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 60px;
+.first-text p:nth-child(2) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
 }
 .first-text p:nth-child(3) {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 33px;
-    line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  line-height: 30px;
 }
-.first-text p{
-    line-height: 0px;
-    margin: 45px 0px 15px;
-}
-
-.first-text button{
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 15px;
-    font-size: 12px;
-    width: 130px;
-    height: 42px;
-    outline: none;
-    margin: 0px 2px;
-}
-.hire-btn{
-    border: 2px solid burlywood;
-    color: brown;
-}
-.download-cv{
-    background-color: brown;
-    color: burlywood;
-    border: none;
-}
-.button:active{
-    transform: scale(1.1);
+.first-text p {
+  line-height: 0px;
+  margin: 45px 0px 15px;
 }
 
+.first-text button {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 130px;
+  height: 42px;
+  outline: none;
+  margin: 0px 2px;
+}
+.hire-btn {
+  border: 2px solid burlywood;
+  color: brown;
+}
+.download-cv {
+  background-color: brown;
+  color: burlywood;
+  border: none;
+}
+.button:active {
+  transform: scale(1.1);
+}
