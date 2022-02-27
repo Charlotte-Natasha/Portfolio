@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
 first-text p {
   line-height: 0px;
   margin: 45px 0px 15px;
@@ -5,7 +6,7 @@ first-text p {
 
 .first-text button {
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
   border-radius: 15px;
   font-size: 12px;
   width: 130px;
@@ -23,7 +24,7 @@ first-text p {
   outline: none;
   margin: 0px 2px;
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
 }
 .download-cv {
   background-color: brown;
@@ -36,7 +37,7 @@ first-text p {
   outline: none;
   margin: 0px 2px;
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
 }
 .button:active {
   transform: scale(1.1);

@@ -8,7 +8,6 @@ body {
     rgba(92, 25, 22, 1) 100%
   );
   font-family: sans-serif;
-  align-items: center;
 }
 
 h3 {
@@ -33,6 +32,20 @@ h3 {
   font-size: 25px;
 }
 
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+.contact-form h3 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.contact-form,
+.text-box {
+  font-size: 15px;
+}
 strong {
   font-weight: 400;
 }
@@ -41,12 +54,13 @@ label {
   padding: 12px;
   font-weight: 200;
 }
-input,
+.contact-form,
 textarea {
   width: 100%;
   padding: 12px;
+  font-size: 14px;
   border: none;
-  border-bottom: 1px solid brown;
+  border-bottom: 3px solid brown;
   border-right: 1px solid bisque;
   border-radius: 6px;
 }
@@ -54,7 +68,6 @@ button {
   background-color: brown;
   color: bisque;
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
   border-radius: 15px;
   font-size: 12px;
   width: 130px;
