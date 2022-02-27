@@ -1,3 +1,13 @@
+body {
+  background: rgb(255, 228, 196);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 228, 196, 1) 0%,
+    rgba(195, 176, 145, 1) 50%,
+    rgba(92, 25, 22, 1) 100%
+  );
+}
+
 h3 {
   text-align: center;
   font-size: 25px;
