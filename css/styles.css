@@ -11,21 +11,15 @@ img {
   float: left;
 }
 
-ul {
-  letter-spacing: 1px;
-}
-
 a {
   text-decoration: none;
 }
 nav {
   display: flex;
-  justify-content: space-between;
   align-content: left;
   height: 80px;
   background-color: rgb(92, 25, 22);
 }
-
 nav {
   display: flex;
 }

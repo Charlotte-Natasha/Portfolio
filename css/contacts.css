@@ -9,7 +9,6 @@ body {
   );
   font-family: sans-serif;
 }
-
 h3 {
   text-align: left;
   font-size: 25px;
@@ -17,17 +16,18 @@ h3 {
 }
 .contact-container {
   width: 100%;
-  padding-top: 30px;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 .contact-info {
-  padding-left: 50px;
-  line-height: 50px;
   max-width: 500px;
-  font-size: 15px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
 }
 .contact-info i {
+  text-align: left;
   margin-right: 20px;
   font-size: 25px;
 }
@@ -37,31 +37,29 @@ h3 {
   flex: 1;
 }
 .contact-form h3 {
-  text-align: center;
   font-size: 35px;
-  text-transform: uppercase;
   margin-bottom: 30px;
 }
 .contact-form,
 .text-box {
-  font-size: 15px;
-}
-strong {
-  font-weight: 400;
-}
-label {
-  display: inline-block;
+  line-height: 3px;
+  width: calc(50% -10%);
+  background: bisque;
+  border: none;
   padding: 12px;
-  font-weight: 200;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 1px 2px 2px;
+  border-bottom: 2px solid brown;
+  border-radius: 6px;
 }
 .contact-form,
 textarea {
-  width: 100%;
-  padding: 12px;
-  font-size: 14px;
+  background: bisque;
   border: none;
-  border-bottom: 3px solid brown;
-  border-right: 1px solid bisque;
+  width: 100%;
+  font-size: 15px;
+  border-bottom: 2px solid brown;
   border-radius: 6px;
 }
 button {
