@@ -103,3 +103,46 @@ nav a {
 .about-box {
   font-family: "Times New Roman", Times, serif;
 }
+h3 {
+  text-align: center;
+}
+.contact-container {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.contact-box p {
+  margin: 30px;
+  font-weight: 300;
+  font-size: 25px;
+}
+strong {
+  font-weight: 400;
+}
+label {
+  display: inline-block;
+  padding: 12px;
+  font-weight: 200;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid brown;
+  border-right: 1px solid bisque;
+  border-radius: 6px;
+}
+button {
+  background-color: brown;
+  color: bisque;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 130px;
+  height: 42px;
+  outline: none;
+  margin: 0px 2px;
+}
