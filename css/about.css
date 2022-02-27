@@ -1,0 +1,43 @@
+first-text p {
+  line-height: 0px;
+  margin: 45px 0px 15px;
+}
+
+.first-text button {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  font-size: 12px;
+  width: 130px;
+  height: 42px;
+  outline: none;
+  margin: 0px 2px;
+}
+.hire-btn {
+  border: 2px solid burlywood;
+  color: brown;
+  width: 130px;
+  height: 42px;
+  border-radius: 15px;
+  font-size: 12px;
+  outline: none;
+  margin: 0px 2px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.download-cv {
+  background-color: brown;
+  color: beige;
+  border: none;
+  width: 130px;
+  height: 42px;
+  border-radius: 15px;
+  font-size: 12px;
+  outline: none;
+  margin: 0px 2px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.button:active {
+  transform: scale(1.1);
+}
