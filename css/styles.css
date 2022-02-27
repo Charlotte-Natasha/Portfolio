@@ -2,6 +2,12 @@ body {
   margin: 0px;
   padding: 0px;
   background: rgb(255, 228, 196);
+  background: radial-gradient(
+    circle,
+    rgba(255, 228, 196, 1) 0%,
+    rgba(195, 176, 145, 1) 50%,
+    rgba(92, 25, 22, 1) 100%
+  );
 }
 
 img {

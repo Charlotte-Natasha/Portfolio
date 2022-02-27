@@ -9,9 +9,9 @@ body {
 }
 
 h3 {
-  text-align: center;
+  text-align: left;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: bold;
 }
 .contact-container {
   padding-top: 30px;
