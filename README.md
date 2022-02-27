@@ -1,6 +1,6 @@
 # Description
 
-My first HTML and CSS project version 1.
+My first HTML and CSS portfolio project version 1.
 
 ## Technology Used
 
